@@ -5,22 +5,22 @@ import Hours from "./hours"
 import data from "../Files/hours.json"
 
 
-import dob from '../IMAGES/res.jpeg';
-import mob from '../IMAGES/mash.jpeg'
-import meb from '../IMAGES/241.jpeg'
-import teb from '../IMAGES/456.jpeg'
-import top from '../IMAGES/890.jpeg'
+//import dob from '../IMAGES/res.jpeg';
+//import mob from '../IMAGES/mash.jpeg'
+//import meb from '../IMAGES/241.jpeg'
+//import teb from '../IMAGES/456.jpeg'
+//import top from '../IMAGES/890.jpeg'
 
 
 const Home = () => {
 
-  function storeHours(data) {
-   return  data.map((day)=>
-    <Hours props = {day.day} 
-    open = {day.openingHour} 
-    close = {day.closingHour}
-    />
-    )
+  //function storeHours(data) {
+  // return  data.map((day)=>
+  //  <Hours props = {day.day} 
+  //  open = {day.openingHour} 
+  //  close = {day.closingHour}
+  //  />
+  //  )
   }
     
 
@@ -41,12 +41,12 @@ const Home = () => {
 
       </div>
 
-      <div className="rest-picture">
-      <img src={dob} ></img>
-       <img src={mob}></img>
-       <img src={meb}></img>
-       <img src={teb}></img>
-       <img src={top}></img>
+     // <div className="rest-picture">
+     // <img src={dob} ></img>
+      // <img src={mob}></img>
+     //  <img src={meb}></img>
+     //  <img src={teb}></img>
+    //   <img src={top}></img>
       </div>
     </div>
   );
