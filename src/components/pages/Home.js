@@ -21,7 +21,7 @@ const Home = () => {
   //  close = {day.closingHour}
   //  />
   //  )
-  }
+ // }
     
 
   return (
@@ -41,12 +41,12 @@ const Home = () => {
 
       </div>
 
-     // <div className="rest-picture">
-     // <img src={dob} ></img>
-      // <img src={mob}></img>
-     //  <img src={meb}></img>
-     //  <img src={teb}></img>
-    //   <img src={top}></img>
+      <div className="rest-picture">
+     /* <img src={dob} ></img>
+      <img src={mob}></img>
+       <img src={meb}></img>
+       <img src={teb}></img>
+       <img src={top}></img> */
       </div>
     </div>
   );
