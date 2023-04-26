@@ -1,0 +1,22 @@
+.hours{
+    display: flex;
+    height: 50px;
+    width: 100%;
+}
+.days{
+color: white;
+width: 150%;
+height: 150px;
+}
+
+.opening{
+    color: white;
+    width: 20%;
+    height: 50px;
+}
+
+.closing{
+    color: white;
+    width: 20%;
+    height: 50px;
+}

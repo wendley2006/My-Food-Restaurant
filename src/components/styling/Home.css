@@ -1,0 +1,63 @@
+/* Home.css */
+.home {
+  height: 1900px;
+  display: flex;
+  align-items: center;
+ background-color: #666;
+}
+
+.home h1 {
+  text-align: center;
+  color: white;
+  font-size: 27px;
+  font-family: 'Times New Roman', Times, serif;
+  align-items: center;
+}
+.home p{
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+
+}
+
+.tittle-hours{
+  height: 100vh;
+  width: 50%;
+}
+.tittle-hours p{
+  color: white;
+  font-size: 19px;
+  font-family: 'Times New Roman', Times, serif;
+  align-items: center;
+}
+
+
+
+.h2{
+  font-size: 18px;
+  color: #666;
+}
+
+
+.rest-picture{
+ /* background-image: url('../IMAGES/MICHAEL\ STAVARIDIS\ photographer.jpg');*/
+ margin:0;
+ padding:0;
+  height: 100vh;
+  width: 50%;
+
+}
+
+.rest-picture img {
+  max-width: 100%;
+  border-radius: 40px;
+  height: auto;
+  display:flex;
+
+
+}
+
+
+
+
+
+

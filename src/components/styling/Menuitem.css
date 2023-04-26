@@ -1,0 +1,56 @@
+
+.MenuItem{
+text-align: center;
+padding-top: 60px;
+width: 100%;
+background:url("../IMAGES/rest.jpeg");
+background-size:cover;
+overflow: hidden;
+box-shadow: 10px 5px 5px #fff;
+
+border: 6px solid;
+margin: 9px;
+
+display:flex;
+flex-direction: column;
+
+
+}
+
+.pic{
+justify-self: center;
+
+}
+.pic img{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    
+}
+
+.price{
+    color: #fff;
+    height:75px;
+    padding-bottom: 10px;
+    width: 100%;
+    margin: 20px auto;
+    float: left;
+    
+   
+}
+
+
+.price p{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+
+.titledesc{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
