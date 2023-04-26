@@ -1,40 +1,40 @@
 
 import "../styling/Contact.css"
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 import {useState} from 'react';
 import {useRef} from 'react';
 
 
 
 function Contact() {
-    <Contact/>
+    // <Contact/>
 
-    const form = useRef();
-    const [showForm, setShowForm] = useState(true);
+    // const form = useRef();
+    // const [showForm, setShowForm] = useState(true);
    
-     const handleSubmit = (e) => {
-       e.preventDefault();
+    //  const handleSubmit = (e) => {
+    //    e.preventDefault();
    
-       emailjs
-         .sendForm(
-           "service ID",
-           "template_jg7l49p",
-           form.current,
-           "private key"
-         )
-         .then(
-           (result) => {
-             console.log(result.text);
-           },
-           (error) => {
-             console.log(error.text);
-           }
-         );
+    //    emailjs
+    //      .sendForm(
+    //        "service ID",
+    //        "template_jg7l49p",
+    //        form.current,
+    //        "private key"
+    //      )
+    //      .then(
+    //        (result) => {
+    //          console.log(result.text);
+    //        },
+    //        (error) => {
+    //          console.log(error.text);
+    //        }
+    //      );
    
-       clicked();
-     };
+    //    clicked();
+    //  };
    
-     const clicked = () => setShowForm(false);
+    //  const clicked = () => setShowForm(false);
 
 
   return (
@@ -44,7 +44,8 @@ function Contact() {
    <div className='contact-form'>
 <h2>Contact Us</h2>
 <form action="mailto:wendley.saurel16@allisonacademy.com" method="get" enctype="text/plain"
-ref={form} onSubmit={handleSubmit} /*method="post"*/ target="blank">
+// ref={form} onSubmit={handleSubmit} /*method="post"*/ target="blank">
+>
 
   <div className='form-group'>
   
