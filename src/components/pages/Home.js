@@ -42,11 +42,11 @@ const Home = () => {
       </div>
 
       <div className="rest-picture">
-     /* <img src={dob} ></img>
+    {/* <img src={dob} ></img>
       <img src={mob}></img>
        <img src={meb}></img>
        <img src={teb}></img>
-       <img src={top}></img> */
+       <img src={top}></img> */}
       </div>
     </div>
   );
