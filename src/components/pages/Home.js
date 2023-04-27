@@ -2,7 +2,7 @@ import React from "react";
 import "../styling/Home.css";
 
 import Hours from "./hours"
-import data from "../Files/hours.json"
+//import data from "../Files/hours.json"
 
 
 //import dob from '../IMAGES/res.jpeg';
